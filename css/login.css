@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.tituloPagina{
+    font-size: 35px;
+    font-family: "Roboto";
+    color: #222222;
+}
+
+#form1{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+#form1 input{
+    border-bottom: 2px solid #222222;
+    margin-bottom: 3rem;
+    
+}
+
+#form1 input:focus {
+    outline: none;
+  }
+
+input[type="email"] {
+    padding-left: 30px; /* Espaço para o ícone */
+    background-image: url("img/Email.png") left center no-repeat; /* Adiciona o ícone */
+  }
+
+input[type="password"] {
+    padding-left: 30px; /* Espaço para o ícone */
+    background-image: url("img/Lock.png") left center no-repeat; /* Adiciona o ícone */
+}
+
+
+#divbutton1{
+    width: 15%;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -90px;
+}
+
+#divbutton1 button{
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    color: #7A7A7B;
+    font-family: "Roboto";
+}
+
+@media (max-Width: 680px){
+    #divbutton1{
+        width: 15%;
+        height: 120px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -90px;
+        margin-left: 3rem;
+    }
+    
+
+    #divbutton1 button{
+        border: none;
+        background-color: white;
+        font-size: 9px;
+        color: #7A7A7B;
+        font-family: "Roboto";
+        cursor: pointer;
+    }
+}
+
+#form1 .botaoLogin{
+    background-color: #F38342;
+    width: 12%;
+    height: 120px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+@media(max-width: 680px){
+    #form1 .botaoLogin{
+        background-color: #F38342;
+        width: 20%;
+        height: 120px;
+        border-radius: 10px;
+        color: #ffffff;
+        font-family: "Roboto";
+    }
+}
+
+b{
+    font-family: "Roboto";
+}
+
